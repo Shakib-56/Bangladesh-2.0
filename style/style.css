@@ -437,7 +437,7 @@ nav {
   margin-top: 5px;
 }
 
-.quote-content .lower-content p {
+.quote-content .lower-content p,#section-3 p{
   color: rgba(14, 14, 14, 0.6);
   font-size: 16px;
   font-weight: 400;
@@ -531,4 +531,41 @@ nav {
 }
 #donate-section .other-amount-box input:focus {
   outline: none;
+}
+#section-3{
+ margin: 100px 120px 80px 120px;
+
+}
+#section-3 p{
+margin: 10px 0 10px 0;
+}
+.section-3-container{
+    margin-top: 20px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content:space-around;
+    align-items: start;
+    gap: 20px;
+}
+.section-3-container .image-container{
+    width: 400px;
+    height: 280px;
+
+}
+.section-3-container .image-container img{
+width: 320px;
+border-radius: 30px;
+}
+.section-3-content{
+
+}
+.section-3-btn{
+    background: rgb(0, 106, 80);
+}
+
+.container-2{
+    display: flex;
+    flex-direction: row-reverse;
 }

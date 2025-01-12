@@ -275,7 +275,7 @@ nav {
 }
 
 #hero-section {
-  margin: 40px 120px 80px 120px;
+  margin: 20px 120px 30px 120px;
   background-color: #c6e4d6;
   display: flex;
   justify-content: space-between;
@@ -324,7 +324,7 @@ nav {
   margin-top: 10px;
 }
 nav {
-  margin: 100px 120px 0 120px;
+  margin:40px 120px 0 120px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -366,7 +366,7 @@ nav {
   margin-top: 10px;
 }
 #section-1 {
-  margin: 100px 120px 80px 120px;
+  margin: 20px 120px 50px 120px;
 }
 
 #section-1 .card-container .card-1 img {
@@ -374,7 +374,7 @@ nav {
   margin-bottom: 10px;
 }
 #section-2 {
-  margin: 100px 120px 80px 120px;
+  margin: 20px 120px 80px 120px;
 }
 .card-container-2 {
   width: 100%;
@@ -414,7 +414,7 @@ nav {
 }
 
 #Quote-Section {
-  margin: 100px 120px 80px 120px;
+  margin: 20px 120px 80px 120px;
 }
 .quote-content {
   border: 1px solid rgba(14, 14, 14, 0.15);
@@ -446,7 +446,7 @@ nav {
   text-align: left;
 }
 #donate-section {
-  margin: 100px 120px 80px 120px;
+  margin: 100px 120px 20px 120px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -533,7 +533,7 @@ nav {
   outline: none;
 }
 #section-3{
- margin: 100px 120px 80px 120px;
+ margin: 100px 120px 50px 120px;
 
 }
 #section-3 p{
@@ -568,4 +568,55 @@ border-radius: 30px;
 .container-2{
     display: flex;
     flex-direction: row-reverse;
+}
+#newslatter-section{
+  border-radius:24px;
+  margin: 0 120px 80px 120px;
+  padding: 50px 70px 50px 70px;
+  background: #c6e4d6;
+}
+
+#newslatter-section .newslatter-container{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+
+}
+
+#newslatter-section .newslatter-container p{
+  color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+#newslatter-section .newslatter-container h3{
+  font-size: 30px;
+}
+.input-box input
+{
+  border: none;
+  width: 520px;
+  padding:20px;
+  border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+
+}
+.input-box input:focus{
+  outline: none;
+}
+/* .input-box input::placeholder{
+  margin-left: 20px;
+} */
+.input-box button{
+background-color: #006a50;
+color: white;
+border: none;
+padding:20px 30px;
+margin-left:-10px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
 }
